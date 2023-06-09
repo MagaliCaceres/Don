@@ -1,24 +1,73 @@
-import logo from './logo.svg';
-import './App.css';
+//        IMPORTACIONES
+
+// Modulos
+import {Routes, Route} from 'react-router-dom';
+
+// Estilos
+import "./App.css"
+
+// Componentes
+import NavBar from './componentes/navBar/NavBar'
+import Home from './componentes/home/Home'
+import ItemListContainer from './componentes/itemListContainer/ItemListContainer'
+import ItemDetailContainer from './componentes/itemDetailContainer/ItemDetailContainer'
+import Footer from './componentes/footer/Footer'
+
+import Register from "./componentes/register/Register"
+import Login from "./componentes/login/Login"
+
+import CartProvider from './contexto/contexto'
+import ProtectedRoute from './componentes/protectedRoute';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div>
+
+      <CartProvider>
+    
+        <NavBar/>
+
+        <Routes>
+          
+          <Route exact path='/' element={<Login/>}/> 
+          <Route exact path='/registro' element={<Register/>}/> 
+
+          <Route exact path='/home' element={
+            <ProtectedRoute>
+              <Home/>
+            </ProtectedRoute>
+          }/>
+
+          <Route exact path='/productos' element={
+            <ProtectedRoute>
+              <ItemListContainer/>
+            </ProtectedRoute>
+          } />
+
+          <Route exact path='/producto/:productoId' element={
+            <ProtectedRoute>
+              <ItemDetailContainer/>            
+            </ProtectedRoute>
+          }/>
+
+          <Route exact path='/categoria/:categoriaId' element={
+            <ProtectedRoute>
+              <ItemListContainer/>          
+            </ProtectedRoute>
+          }/> 
+
+        </Routes>
+
+        <Footer/>
+
+      </CartProvider>
     </div>
+
+
   );
 }
 

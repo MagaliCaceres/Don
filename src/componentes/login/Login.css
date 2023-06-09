@@ -1,0 +1,52 @@
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+    height: 450px;
+}
+
+.label{
+    color: #02843f;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.input{
+    width: 280px;
+}
+
+.cuenta_nueva{
+    display: block;
+    margin-top: 15px;
+    color: #095c30be;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.error{
+    color: rgb(216, 7, 7);
+    font-weight: 700;
+}
+
+
+
+
+@media only screen and (min-width:1440px){
+
+    
+    .label{
+        font-size: 22px;
+    }
+    
+    .input{
+        width: 400px;
+        font-size: 18px;
+    }
+    
+    .inicio{
+        font-weight: 700;
+    }
+    
+
+}

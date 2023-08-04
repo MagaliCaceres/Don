@@ -192,8 +192,8 @@ const Home = () =>{
                 <div className='img_fondo'>
                     <div className='contenido_nosotros'>
                         <h2>Nosotros</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                        <p>Somos una empresa joven, ubicada en la localidad de Avellaneda. Dedicada a la fabricación de accesorios para carpinterias de aluminio.</p>
+                        <p>Nuestro objetivo esta centrado en garantizar un desempeño optimo en los diferentes proceos de fabricación, evaluación y comercialización del producto, como tambien brindar las mejores soluciones a las necesidades que presenta el mercado actual.</p>
                         <img src="/img/LogoDon.png" alt="Logo de Don"></img>
                     </div>
                 </div>

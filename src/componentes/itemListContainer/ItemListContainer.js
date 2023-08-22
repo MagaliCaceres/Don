@@ -57,7 +57,7 @@ const ItemListContainer = () =>{
         setCargando(true);
         setTimeout(() => {
         setCargando(false);
-        }, 1500);
+        }, 1000);
     }, []);
         
     

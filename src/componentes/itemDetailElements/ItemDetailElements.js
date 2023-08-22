@@ -41,7 +41,6 @@ const ItemDetailElements = ({path}) =>{
                     <div className='info_elemento'>
                         <p>Cantidad: <span> {path.cantidad}  </span></p>
                         <p>Categoria: <span> {path.categoria}  </span></p>
-                        <p>Proveedor: <span> {path.proveedor}  </span></p>
                     </div> 
 
                     {/* VER MAS */}

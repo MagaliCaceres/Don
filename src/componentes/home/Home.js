@@ -157,12 +157,20 @@ const Home = () =>{
                 </div>
 
                 <div className='cartas_categorias'>
-                    {/* KITS */}
+                    {/* KITS LATERALES */}
                     <div className='carta_categorias'>
                         <div className='imagen_categoria'>
-                            <Link to="/categoria/Kits"><img src="/img/Kits.png" alt="imagen de Kit para caracterizar la categoria de Kits"></img></Link> 
+                            <Link to="/categoria/Kits"><img src="/img/Kits.png" alt="imagen de Kit Lateral para caracterizar la categoria de Kits Laterales"></img></Link> 
                         </div>
-                        <p><Link to="/categoria/Kits" className='nombre_categoria'>Kits</Link></p>
+                        <p><Link to="/categoria/KitsLaterales" className='nombre_categoria'>Kits Laterales</Link></p>
+                    </div>
+
+                    {/* KITS BI PUNTO */}
+                    <div className='carta_categorias'>
+                        <div className='imagen_categoria'>
+                            <Link to="/categoria/KitsBipunto"><img src="/img/KitsBipunto.png" alt="imagen de Kit Bipunto Lateral para caracterizar la categoria de Kits Bipunto"></img></Link> 
+                        </div>
+                        <p><Link to="/categoria/KitsLaterales" className='nombre_categoria'>Kits BiPunto</Link></p>
                     </div>
 
                     {/* ACCESORIO A30 */}

@@ -46,7 +46,8 @@ const NavBar = () =>{
                         <Link className='link_categoria' to="/categoria/Cierres">Cierres</Link>
                         <Link className='link_categoria' to="/categoria/Bisagras">Bisagras</Link>
                         <Link className='link_categoria' to="/categoria/Rodamientos">Rodamientos</Link>
-                        <Link className='link_categoria' to="/categoria/Kits">Kits</Link>
+                        <Link className='link_categoria' to="/categoria/KitsLaterales">Kits Laterales</Link>
+                        <Link className='link_categoria' to="/categoria/KitsBipunto">Kits BiPunto</Link>
                         <Link className='link_categoria' to="/categoria/Accesorios A30">Accs. A30</Link>
                         <Link className='link_categoria' to="/categoria/Accesorios Modena">Accs. Modena</Link>
                     </NavDropdown>

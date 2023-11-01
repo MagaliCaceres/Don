@@ -170,7 +170,7 @@ const Home = () =>{
                         <div className='imagen_categoria'>
                             <Link to="/categoria/KitsBipunto"><img src="/img/KitsBipunto.png" alt="imagen de Kit Bipunto Lateral para caracterizar la categoria de Kits Bipunto"></img></Link> 
                         </div>
-                        <p><Link to="/categoria/KitsLaterales" className='nombre_categoria'>Kits BiPunto</Link></p>
+                        <p><Link to="/categoria/KitsBipunto" className='nombre_categoria'>Kits BiPunto</Link></p>
                     </div>
 
                     {/* ACCESORIO A30 */}

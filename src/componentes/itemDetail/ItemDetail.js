@@ -91,7 +91,7 @@ const ItemDetail = ({item}) =>{
                     ))}
             </div> */}
 
-            <h2 className='subcategorias'>Zamac:</h2>
+            <h2 className='subcategorias'>Zamak:</h2>
             {/* ZAMAC */}
             <div className='contenedor_elementos'>
                     {zamacDoc?.map( (doc) => (

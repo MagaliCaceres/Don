@@ -1,0 +1,177 @@
+
+
+.contenedor_elemento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.carta_elemento{
+    box-shadow: 2px 2px 10px #464646;
+    background-color:  #f1f1f1;
+}
+
+.imagen_elemento_contenedor,
+.imagen_modal{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen_elemento{
+    width: 200px;
+    margin-top: -10px;
+    margin-bottom: -30px;
+    filter: drop-shadow(3px 1px 3px #2d2d2ded);
+
+}
+
+.nombre_elemento{
+    text-align: center;
+    color: #009245;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.info_elemento p{
+    color: #009245;
+    font-weight: 700;
+    margin: 2px 0px;
+    letter-spacing: 0.8px;
+}
+
+.info_elemento p span{
+    color: #000;
+    font-weight: 400;
+}
+
+.icon_vermas_elemento{
+    color: #f1f1f1;
+    background-color: #009245;
+    border-radius: 100%;
+    font-size: 25px;
+}
+
+.icon_vermas_elemento:hover{
+    color: #f1f1f1;
+    background-color: #000;
+}
+
+/* MODAL */
+
+.info_modal{
+    padding: 20px 10px;
+}
+
+.info_modal h2{
+    color: #009245;
+    font-weight: 700;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.imagen_modal img{
+    width: 230px;
+    filter: drop-shadow(3px 1px 3px #2d2d2ded);
+
+}
+
+.data_modal{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* 
+.detalles_modal{
+    display: flex;
+    justify-content: space-around;
+} */
+
+.detalles_modal p{
+    color: #009245;
+    font-weight: 700;
+    margin: 1px 0px;
+}
+
+.detalles_modal p span{
+    color: #000;
+}
+
+.descripcion_modal{
+    color: #000;
+    font-size: 18px;
+    padding: 0px 10px;
+}
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+
+
+@media only screen and (min-width:768px){
+
+    .imagen_modal img{
+        width: 260px;
+    }
+
+    .descripcion_modal{
+        padding: 0px 20px;
+        margin-bottom: 20px;
+    }
+
+    .detalles_modal{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .detalles_modal p{
+        margin: 1px 20px;
+    }
+}
+
+
+@media only screen and (min-width:1024px){
+
+    .modal-content{
+        width: 800px;
+        margin-left: -150px;
+    }
+
+    .informacion_modal{
+        display: flex;
+        /* justify-content: center; */
+    }
+
+    .info_modal h2{
+        margin-left: 20px;    
+    }
+
+    .imagen_modal img{
+        width: 300px;
+    }
+
+    .descripcion_modal{
+        padding: 0px 60px;
+        margin-bottom: -20px;
+        font-size: 22px;
+    }
+
+    .detalles_modal{
+        margin-top: 50px;       
+    }
+
+    .detalles_modal p{
+        font-size: 18px;
+    }
+
+    
+    .data_modal{
+        margin-left: -10px;
+    }
+
+}
